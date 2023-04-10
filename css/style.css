@@ -100,6 +100,7 @@
 .flexbox_r{
   display: flex;
   justify-content: center;
+  flex-direction: row;
 }
 p{
   position:absolute;
@@ -149,18 +150,21 @@ p{
   height: 300px;
   background: #00ff51;
   position: relative;
+  order: -1;
 }
 .yellow_box_o{
   width: 300px;
   height: 300px;
   background: #d4ff00;
   position: relative;
+  order: -1;
 }
 .pink_box_o{
   width: 300px;
   height: 300px;
   background: #ff00e1;
   position: relative;
+  order: 1;
 }
 
 /* SP */
@@ -186,6 +190,7 @@ p{
   width: 300px;
   height: 300px;
   background: #ff0000;
+  display: block;
 }
 .blue_box_n{
   width: 300px;
