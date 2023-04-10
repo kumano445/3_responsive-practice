@@ -97,7 +97,6 @@
 
 /* Q5 */
 /* PC */
-@media screen and (max-width: 1100px){
 .flexbox_r{
   display: flex;
   justify-content: center;
@@ -125,19 +124,17 @@ p{
   background: #ff8400;
   position: relative;
 }
-}
+
 /* SP */
 @media screen and (max-width: 960px){
   .flexbox_r{
     flex-direction:row-reverse;
   }
+  
 }
-
-
 
 /* Q6 */
 /* PC */
-@media screen and (max-width: 1100px){
 .flexbox_o{
   display: flex;
   justify-content: center;
@@ -165,7 +162,6 @@ p{
   background: #ff00e1;
   position: relative;
 }
-}
 
 /* SP */
 @media screen and (max-width: 960px){
@@ -182,7 +178,6 @@ p{
 
 /* Q7 */
 /* PC */
-@media screen and (max-width: 1100px){
 .none{
   display: flex;
   justify-content: center;
@@ -203,7 +198,7 @@ p{
   height: 300px;
   background: #00ff51;
 }
-}
+
 /* SP */
 @media screen and (max-width: 960px){
   .red_box_n{
